@@ -418,7 +418,7 @@ function Header({ scrollToSection, categoryRefs, categories }) {
             <Link to ="contactus" className="hover:text-blue-600 transition">
               Contact Us
             </Link>
-            <Link to ="/aboutus" className="hover:text-blue-600 transition">
+            <Link to ="aboutus" className="hover:text-blue-600 transition">
               About Us
             </Link>
             <Link to ="support" className="hover:text-blue-600 transition">
