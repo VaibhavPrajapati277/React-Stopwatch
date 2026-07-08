@@ -101,20 +101,19 @@ function Header({ scrollToSection, categoryRefs, categories }) {
             </button>
           </div>
           <nav className=" hidden md:flex justify-start space-x-8 text-gray-700 font-medium">
-            {/* <a href={Home} className="hover:text-blue-600 transition">Home</a> */}
             <Link to="/" className="hover:text-blue-600 transition">
               Home
             </Link>
 
-            <a href="/contactus" className="hover:text-blue-600 transition">
+            <Link to ="/contactus" className="hover:text-blue-600 transition">
               Contact Us
-            </a>
-            <a href="/aboutus" className="hover:text-blue-600 transition">
+            </Link> 
+            <Link to ="/aboutus" className="hover:text-blue-600 transition">
               About Us
-            </a>
-            <a href="/support" className="hover:text-blue-600 transition">
+            </Link> 
+            <Link to ="/support" className="hover:text-blue-600 transition">
               Support
-            </a>
+            </Link> 
           </nav>
 
           <div className="hidden md:flex gap-4 flex items-center">
@@ -412,19 +411,19 @@ function Header({ scrollToSection, categoryRefs, categories }) {
 
         {menuOpen && (
           <nav className="flex flex-col items-center  mr-4px text-gray-700 font-medium px-6 py-2 space-y-4 ">
-            {/* <a href="#" className="hover:text-blue-600 transition">Home</a> */}
+            {/* <Link to ="#" className="hover:text-blue-600 transition">Home</Link>  */}
             <Link to="/" className="hover:text-blue-600 transition">
               Home
             </Link>
-            <a href="contactus" className="hover:text-blue-600 transition">
+            <Link to ="contactus" className="hover:text-blue-600 transition">
               Contact Us
-            </a>
-            <a href="/aboutus" className="hover:text-blue-600 transition">
+            </Link>
+            <Link to ="/aboutus" className="hover:text-blue-600 transition">
               About Us
-            </a>
-            <a href="support" className="hover:text-blue-600 transition">
+            </Link>
+            <Link to ="support" className="hover:text-blue-600 transition">
               Support
-            </a>
+            </Link>
           </nav>
         )}
       </header>
